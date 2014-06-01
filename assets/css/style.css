@@ -1,0 +1,124 @@
+body{
+    background: #fff;
+}
+.form-signin {
+  max-width: 330px;
+  margin: 0 auto;
+}
+.bg-none {
+    background: none;
+}
+
+.navbar-color {
+    background: url('../images/logo/bg_brand.png') no-repeat 10px center;
+}
+.label{
+    font-weight: bold;
+}
+.no-border-radius {
+    border-radius: 0px;
+}
+
+.small-font {
+    font-size: 11px;
+}
+
+.medium-font {
+    font-size: 14px;
+}
+
+.large-font {
+    font-size: 42px;
+}
+.space {
+    margin-bottom: 5px;    
+}
+.bg-brown{
+    background-color: #f7f7f7;
+}
+.button-amr{
+    border-radius: 5px;
+    margin: 10px 10px 10px 80px;
+    
+}
+.ajax-modal {
+    color: #fff;
+    display: none;
+    padding: 10px;
+    background: rgba(0,0,0,0.4);
+    border-radius: 3px;
+    position: relative; 
+    margin: auto; 
+    z-index: 9999;
+    min-width: 50px;
+    max-width: 300px;
+    font-size: 11px;
+}
+.ajax-loader {
+    color: #fff;
+    display: none;
+    padding: 10px;
+    background: rgba(0,0,0,0.4);
+    border-radius: 3px;
+    position: relative; 
+    margin: auto; 
+    z-index: 9999;
+    min-width: 200px;
+    max-width: 100px;
+    height: 30px;
+    font-size: 11px;
+    text-align: center;
+}
+.actives {
+    background-color: #1470ce;
+    color: #fff;
+}
+.nav.navbar-nav.navbar-white li a {
+    color: #fff;
+    
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+}
+.nav.navbar-nav.navbar-white li a:hover {
+    background-color: #1470ce;
+    color: #fff;
+}
+
+
+/* exteui overwrite */
+
+ul.x-tree.tree > li {
+    padding: 0px;
+    margin: 0px;
+}
+ul.x-tree.tree > ul li.x-tree {
+    padding: 0px;
+    margin: 0px;
+}
+.x-panel.panel-body {
+    margin: 0px;
+}
+.x-panel.tree-node {
+    padding: 0px;
+    margin: 0px;
+}
+.tree-node  {
+    margin: 0px;
+}
+.child-tree li {
+    background: none;
+}
+.child-tree li:hover {
+    background: #c1ddf1;
+}
+li.child-tree-node-selected {
+    background: #c1ddf1;
+}
+
+/*
+ * Data Table
+ */
+

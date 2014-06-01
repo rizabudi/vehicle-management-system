@@ -1,0 +1,308 @@
+body {
+    font-family: Arial;
+    font-size: 12px;
+    background-image: url('../images/modal/office.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+.ext-gradient {
+    background-color: #1a82f7;
+    background-image: url(images/linear_bg_1.png);
+    background-repeat: repeat-y;
+
+    background: -webkit-gradient(linear, left top, right top, from(#00266d), to(#0179cf));
+    background: -webkit-linear-gradient(left, #00266d, #0179cf);
+    background: -moz-linear-gradient(left, #00266d, #0179cf);
+    background: -ms-linear-gradient(left, #00266d, #0179cf);
+    background: -o-linear-gradient(left, #00266d, #0179cf);
+}
+.ext-container {
+    width: 100%;
+}
+.ext-footer {
+    background-image: url('../images/icon/logo.png');
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: center;
+    font-size: 12px;
+    padding: 5px 5px 5px 30px;
+    margin: 15px auto 15px auto;
+    width: auto;
+}
+.ext-login {
+    width: 350px;
+    margin: auto;
+    border-radius: 5px;
+}
+.ext-panel-header {
+    background-color: #3892d3;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+.ext-panel-body {
+    background-color: #ededed;
+    padding: 10px;
+}
+.ext-panel-footer {
+    padding: 10px;
+}
+.ext-auto-margin-side {
+    margin-left: auto;
+    margin-right: auto;
+}
+.ext-panel-bordered {
+    border: 3px solid #3892d3;
+}
+.ext-tabs-header {
+    background-color: #3892d3;
+    padding: 10px 10px 10px 0px;
+    color: #157fcc;
+    font-weight: bold;
+    border-bottom: 5px solid #add2ed;
+}
+.ext-tabs-body {
+    padding: 10px;
+}
+.ext-tabs-active {
+    background-color: #add2ed;
+    padding: 12px;
+    margin-bottom: 5px;
+    color: #157fcc;
+    width: auto;
+}
+.ext-no-radius {
+    border-radius: 0px;
+}
+.ext-no-padding {
+    padding: 0px 10px 0 0;
+}
+.ext-no-padding-last {
+    padding: 0px;
+}
+.ext-margin {
+    margin-bottom: 10px;
+}
+.ext-fixed-content {
+    overflow: auto;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    top: 52px;
+}
+
+@media(max-width:1028px) { 
+    .ext-no-padding {
+        padding: 0px;
+    }
+
+    .ext-fixed-content {
+        overflow: auto;
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        top: 52px;
+    }
+}
+
+@media(max-width:768px) { 
+    .ext-no-padding {
+        padding: 0px;
+    }
+
+    .ext-fixed-content {
+        overflow: auto;
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        top: 52px;
+        left: 0px;
+    }
+}
+
+/*
+ * icon ext style
+ */
+
+.ext {
+    background-image: url('../images/ext/tool-sprites.png');
+    background-color: transparent;
+    opacity: 0.5;
+    width: 16px;
+    height: 16px;
+    float: right;
+    cursor: pointer;
+    margin: 0px 2px 0 2px;
+}
+.ext-dark {
+    background-image: url('../images/ext/tool-sprites-dark.png');
+    background-color: transparent;
+    opacity: 0.5;
+    width: 16px;
+    height: 16px;
+    float: right;
+    cursor: pointer;
+    margin: 0px 2px 0 2px;
+}
+.ext:hover , .ext-dark:hover {
+    opacity: 1;
+}
+.ext-close {
+    background-position-y: 0px;
+}
+.ext-minimize {
+    background-position-y: -16px;
+}
+.ext-maxsimize {
+    background-position-y: -32px;
+}
+.ext-restore-down {
+    background-position-y: -48px;
+}
+.ext-arrow-up {
+    background-position-y: -64px;
+}
+.ext-arrow-down {
+    background-position-y: -80px;
+}
+.ext-cog {
+    background-position-y: -96px;
+}
+.ext-arrow-right {
+    background-position-y: -112px;
+}
+.ext-arrow-left {
+    background-position-y: -128px;
+}
+.ext-pin-up {
+    background-position-y: -144px;
+}
+.ext-pin-down {
+    background-position-y: -160px;
+}
+.ext-collapse-left {
+    background-position-y: -176px;
+}
+.ext-collapse-right {
+    background-position-y: -192px;
+}
+.ext-collapse-up {
+    background-position-y: -208px;
+}
+.ext-collapse-down {
+    background-position-y: -224px;
+}
+.ext-refresh {
+    background-position-y: -240px;
+}
+.ext-plus {
+    background-position-y: -256px;
+}
+.ext-min {
+    background-position-y: -272px;
+}
+.ext-search {
+    background-position-y: -288px;
+}
+.ext-ok {
+    background-position-y: -304px;
+}
+.ext-help {
+    background-position-y: -320px;
+}
+.ext-print {
+    background-position-y: -336px;
+}
+.ext-tree {
+    background-position-y: -352px;
+}
+.ext-tree-double {
+    background-position-y: -268px;
+}
+
+.ext.ext-collapse-up:before {
+    background-position-y: -208px;
+}
+
+.active > a > .ext.ext-collapse-up:before {
+    background-position-y: -208px;
+}
+
+.ext-label {
+    width: 150px;
+}
+
+/*
+ * EXT Button
+ */
+
+.ext-button-margin {
+    margin: 0 5px 0 5px;
+}
+
+.ext-button-success {
+    font-size: 12px;
+    padding: 7px 10px 7px 10px;
+    color: #FFF;
+    background: -webkit-linear-gradient(top,#61C261,#52A452);
+    background: -moz-linear-gradient(top,#61C261,#52A452);
+    background: -ms-linear-gradient(top,#61C261,#52A452);
+    background: -o-linear-gradient(top,#61C261,#52A452);
+    background: linear-gradient(top,#61C261,#52A452);
+    border-radius: 2px;
+    border: 1px solid #52A552;
+    box-shadow: 0 1px 0 #71C871 inset;	
+    cursor: pointer;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+    text-decoration: none;
+}
+
+.ext-button-success:hover {
+    color: #FFF;
+    background: -webkit-linear-gradient(top,#57af57,#51a351);
+    background: -moz-linear-gradient(top,#57af57,#51a351);
+    background: -ms-linear-gradient(top,#57af57,#51a351);
+    background: -o-linear-gradient(top,#57af57,#51a351);
+    background: linear-gradient(top,#57af57,#51a351);
+    box-shadow: 0 1px 0 #7ac07a inset;
+    text-decoration: none;
+}
+
+.ext-button-danger {
+    font-size: 12px;
+    padding: 7px 10px 7px 10px;
+    color: #FFF;
+    background: -webkit-linear-gradient(top,#d9534f,#c74b47);
+    background: -moz-linear-gradient(top,#d9534f,#c74b47);
+    background: -ms-linear-gradient(top,#d9534f,#c74b47);
+    background: -o-linear-gradient(top,#d9534f,#c74b47);
+    background: linear-gradient(top,#d9534f,#c74b47);
+    border-radius: 2px;
+    border: 1px solid #d43f3a;
+    box-shadow: 0 1px 0 #d46b68 inset;	
+    cursor: pointer;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+    text-decoration: none;
+}
+
+.ext-input{
+	display: inline-block;
+	background-color: #F8F8F8;
+	padding: 7px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #333;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px 0 #FFF;
+	-moz-transition: all 250ms ease-in-out;
+	-webkit-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+        width: 100%;
+}
+
+.ext-input:focus {
+	border-color: solid 1px #5ca9e4;
+	box-shadow: 0 0 0 3px #bed9ee;
+}

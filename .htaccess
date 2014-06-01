@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /vms/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [PT,L] 
+
+RewriteRule  ^/?ajax/(.*)$	ajax.php?$1 [NC,QSA,L]
